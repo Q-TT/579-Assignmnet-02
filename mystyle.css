@@ -1,0 +1,49 @@
+:root {
+    --blue: #1869FB;
+    --purple: #8a18fb;
+    --white: #ffffff; 
+  }
+h1{
+    text-align: center;
+}
+body {
+    /* background-color:lightgray; */
+    color:black;
+    font-size: 2em;
+    font-style: bold;
+    background-color: var(--white);
+     }
+footer { 
+    background-color:lightgrey;
+    color:black;
+    font-size: 1em;
+    font-style: italic;
+     }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+@keyframes fade {
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
+  }
+nav,section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#position{
+    font-family: 'Tangerine';
+    color:#1869FB;
+    font-weight: bold;
+
+}
+.location{
+    font-style: italic;
+    color:var(--purple);
+    font-weight: bold;
+}
